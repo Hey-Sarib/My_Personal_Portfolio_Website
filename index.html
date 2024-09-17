@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MS (Muhammad Sarib) | Your Website Developer |</title>
+    <!-- Add style.css File -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Add Bootstrap css File -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Bootstrap Icon Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body class="bg-white">
+    <!-- Add Whatsapp Icon -->
+    <div id="whatsapp">
+        <a href="https://wa.me/+923332891903" target="_blank" id="toogle" class="whatsapp">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+    </div>
+    <!-- Add Whatsapp Icon -->
+    <!-- Topbar Start -->
+    <div class="container-fluid py-1" id="topbar">
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col-xl-3 col-lg-4 col-md-6 d-flex justify-content-md-start justify-content-center align-items-center">
+                    <a class="text-decoration-none" href="tel:+923332891903"><i
+                            class="bi bi-telephone-fill topbar-icons"></i>
+                        <span class="topbar-span">+92 333 2891903</span></a>
+                </div>
+                <div class="col-xl-6 col-lg-4 d-none d-lg-block d-flex justify-content-center align-items-center">
+                    <marquee behavior="scroll" direction="left">Hi, I'm Muhammad Sarib. I'm a Website Developer. I Have
+                        Experience Of Many Skills. First Of All, Hypertext Markup Language(HTML), Cascading Styling
+                        Sheets(CSS), Bootstrap CSS Framework, and Javascript(JS). I Have Done a Lot Of Work On All These
+                        Languages. I Also Have a Skill In WordPress Website Development. (Theme Customizations),
+                        (Plugins Customizations), Custom Website Development On Elementor Page Builder. So, why are you
+                        late? Here is Sarib For You. Contact me now!
+                    </marquee>
+                </div>
+                <div
+                    class="col-xl-3 col-lg-4 mt-2 mt-md-0 col-md-6 d-flex justify-content-md-end justify-content-center align-items-center">
+                    <a class="text-decoration-none" href="mailto:saribmuhammad902@gmail.com"><i
+                            class="bi bi-envelope-fill topbar-icons"></i>
+                        <span class="topbar-span">saribmuhammad902@gmail.com</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+    <!-- Navbar Start -->
+    <nav class="navbar my-2 navbar-expand-lg bg-transparent">
+        <div class="container">
+            <!-- Logo Start -->
+            <a id="logo" class="navbar-brand" href="index.html">Muhammad <span class="sarib-span">Sarib</span></a>
+            <!-- Logo End -->
+            <!-- Toggle Button Start -->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Toggle Button End -->
+            <!-- Sidebar Start -->
+            <div style="transition: 0.3s ease;" class="sidebar offcanvas offcanvas-end" tabindex="-1"
+                id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <!-- Sidebar Header Start -->
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Muhammad <span class="sarib-span">Sarib</span>
+                    </h5>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <!-- Sidebar Header End -->
+                <!-- Sidebar Body Start -->
+                <div class="offcanvas-body d-flex flex-column flex-lg-row p-lg-0 p-4">
+                    <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+                        <li class="nav-item nav-item-header">
+                            <a class="nav-link active" aria-current="page" href="index.html"
+                                onclick="activateLink(this)">Home</a>
+                        </li>
+                        <li class="nav-item nav-item-header">
+                            <a class="nav-link mx-2" href="#about-me" onclick="activateLink(this)">About Me</a>
+                        </li>
+                        <li class="nav-item nav-item-header">
+                            <a class="nav-link mx-2" href="#services" onclick="activateLink(this)">Services</a>
+                        </li>
+                        <li class="nav-item nav-item-header">
+                            <a class="nav-link mx-2" href="#" onclick="activateLink(this)">My Skills</a>
+                        </li>
+                        <li class="nav-item nav-item-header">
+                            <a class="nav-link mx-2" href="#" onclick="activateLink(this); showAlert()">My
+                                Portfolios</a>
+                        </li>
+                        <li class="nav-item nav-item-header">
+                            <a class="nav-link mx-2" href="#" onclick="activateLink(this)">Contact Me</a>
+                        </li>
+                    </ul>
+                    <!-- Contact Me Button Start -->
+                    <div class="resume-button d-flex justify-content-center align-items-center">
+                        <a style="transition: 0.3s ease;" href="index.html"
+                            class="resume-btn py-2 px-3 rounded-5 text-decoration-none button-hover"
+                            id="downloadBtn">Download Resume</a>
+                    </div>
+                    <!-- Contact Me Button End -->
+                </div>
+                <!-- Sidebar Body End -->
+            </div>
+            <!-- Sidebar End -->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Banner Start -->
+    <div class="container-fluid py-5" id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-lg-start align-items-center">
+                    <h1 class="banner-h1 text-lg-start text-center">Website<br>Developer</h1>
+                    <p class="banner-p1 mt-4 text-lg-start text-center"><b>Your Vision, My Code - Beautifully Built
+                            Websites</b></p>
+                    <p class="banner-p2 text-lg-start text-center">Get Any Type Of Website Developed At An Unbeatable
+                        Price. Whether It's A
+                        Business Website, An Ecommerce Platform, A Blogging Site, Or Even A Gaming Website, I Create
+                        Stunning And Functional Designs Tailored To Your Needs.</p>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center align-items-center">
+                    <img class="banner-image mt-lg-0 mt-3" src="./images/banner-image.webp" alt="Loading...">
+                </div>
+                <div class="col-12 mt-5">
+                    <marquee behavior="scroll" direction="left">Hi, I'm Muhammad Sarib. I'm a Website Developer. I Have
+                        Experience Of Many Skills. First Of All, Hypertext Markup Language(HTML), Cascading Styling
+                        Sheets(CSS), Bootstrap CSS Framework, and Javascript(JS). I Have Done a Lot Of Work On All These
+                        Languages. I Also Have a Skill In WordPress Website Development. (Theme Customizations),
+                        (Plugins Customizations), Custom Website Development On Elementor Page Builder. So, why are you
+                        late? Here is Sarib For You. Contact me now!
+                    </marquee>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+    <!-- About Section Start -->
+    <div id="about-me" class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                    <span class="about-me-span">About Me</span>
+                    <h2 class="about-me-h2 text-center">Who I Am</h2>
+                    <p class="about-me-p text-center mt-1">Hi, I'm Muhammad Sarib. I'm a Website Developer. I Have
+                        Experience Of Many Skills. First Of All, Hypertext Markup Language(HTML), Cascading Styling
+                        Sheets(CSS), Bootstrap CSS Framework, and Javascript(JS). I Have Done a Lot Of Work On All These
+                        Languages. I Also Have a Skill In WordPress Website Development. (Theme Customizations),
+                        (Plugins Customizations), Custom Website Development On Elementor Page Builder. So, why are you
+                        late? Here is Sarib For You. Contact me now!</p>
+                    <a style="transition: 0.3s ease;" href="tel:+923332891903"
+                        class="about-me-btn mt-1 py-2 px-4 rounded-5 text-decoration-none button-hover">Contact Me
+                        Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Section End -->
+    <!-- Services Section Start -->
+    <div id="services" class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-5 d-flex flex-column justify-content-center align-items-center">
+                    <span class="about-me-span">My Services</span>
+                    <h2 class="about-me-h2 text-center">What I Do</h2>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mx-lg-2 px-3 py-3 box-hover">
+                        <div class="card-icons">
+                            <i class="bi bi-code-slash card-icon-s"></i>
+                        </div>
+                        <div class="card-body px-0">
+                            <h3 class="card-h3">Website Development</h3>
+                            <p class="card-text mb-4">Creating responsive and visually appealing websites using HTML,
+                                CSS,
+                                and Bootstrap.</p>
+                            <a style="transition: 0.3s ease;" href="tel:+923332891903"
+                                class="card-btn py-2 px-3 rounded-5 text-decoration-none">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mx-lg-2 my-lg-0 my-3 px-3 py-3 box-hover">
+                        <div class="card-icons">
+                            <i class="bi bi-wordpress card-icon-s"></i>
+                        </div>
+                        <div class="card-body px-0">
+                            <h3 class="card-h3">WordPress Development</h3>
+                            <p class="card-text mb-4">Building custom WordPress websites tailored to client needs for
+                                easy management.</p>
+                            <a style="transition: 0.3s ease;" href="tel:+923332891903"
+                                class="card-btn py-2 px-3 rounded-5 text-decoration-none">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mx-lg-2 px-3 py-3 box-hover">
+                        <div class="card-icons">
+                            <i class="bi bi-bag-plus card-icon-s"></i>
+                        </div>
+                        <div class="card-body px-0">
+                            <h3 class="card-h3">E-commerce Solutions</h3>
+                            <p class="card-text mb-4">Developing robust e-commerce platforms to boost your online sales
+                                and reach.</p>
+                            <a style="transition: 0.3s ease;" href="tel:+923332891903"
+                                class="card-btn py-2 px-3 rounded-5 text-decoration-none">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-lg-5 my-3">
+                    <div class="card mx-lg-2 px-3 py-3 box-hover">
+                        <div class="card-icons">
+                            <i class="bi bi-bar-chart-fill card-icon-s"></i>
+                        </div>
+                        <div class="card-body px-0">
+                            <h3 class="card-h3">SEO Optimization</h3>
+                            <p class="card-text mb-4">Enhancing website visibility on search engines to drive more
+                                organic traffic and business growth.</p>
+                            <a style="transition: 0.3s ease;" href="tel:+923332891903"
+                                class="card-btn py-2 px-3 rounded-5 text-decoration-none">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-lg-5 my-3">
+                    <div class="card mx-lg-2 px-3 py-3 box-hover">
+                        <div class="card-icons">
+                            <i class="bi bi-gear-wide card-icon-s"></i>
+                        </div>
+                        <div class="card-body px-0">
+                            <h3 class="card-h3">Website Maintenance</h3>
+                            <p class="card-text mb-4">Providing regular updates, security checks, and backups to keep
+                                your website running smoothly.</p>
+                            <a style="transition: 0.3s ease;" href="tel:+923332891903"
+                                class="card-btn py-2 px-3 rounded-5 text-decoration-none">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-lg-5 my-3">
+                    <div class="card mx-lg-2 px-3 py-3 box-hover">
+                        <div class="card-icons">
+                            <i class="bi bi-file-code card-icon-s"></i>
+                        </div>
+                        <div class="card-body px-0">
+                            <h3 class="card-h3">UI/UX Design</h3>
+                            <p class="card-text mb-4">Designing user-friendly interfaces that provide an engaging and
+                                intuitive experience.</p>
+                            <a style="transition: 0.3s ease;" href="tel:+923332891903"
+                                class="card-btn py-2 px-3 rounded-5 text-decoration-none">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services Section End -->
+    <!-- Skills Section Start -->
+    <div class="container-fluid px-0 mx-0">
+        <h3 class="skills-heading text-center">My Skills</h3>
+        <div class="row px-0 mx-0">
+            <div class="col-12 px-0 mx-0 py-5">
+                <div id="slider">
+                    <div class="slide-track">
+                        <div class="slide"><img src="./images/html.webp" alt="HTML"></div>
+                        <div class="slide"><img src="./images/css.webp" alt="CSS"></div>
+                        <div class="slide"><img src="./images/bootstrap.webp" alt="Bootstrap"></div>
+                        <div class="slide"><img src="./images/js.webp" alt="JavaScript"></div>
+                        <div class="slide"><img src="./images/wordpress.webp" alt="WordPress"></div>
+                        <div class="slide"><img src="./images/elementor.webp" alt="Elementor"></div>
+                        <div class="slide"><img src="./images/woocommerce.webp" alt="WooCommerce"></div>
+                        <div class="slide"><img src="./images/figma.webp" alt="Figma"></div>
+                        <div class="slide"><img src="./images/photoshop.webp" alt="Photoshop"></div>
+                        <div class="slide"><img src="./images/illustrator.webp" alt="Illustrator"></div>
+                        <div class="slide"><img src="./images/github.webp" alt="GitHub"></div>
+
+                        <!-- Duplicate the entire image set for seamless looping -->
+                        <div class="slide"><img src="./images/html.webp" alt="HTML"></div>
+                        <div class="slide"><img src="./images/css.webp" alt="CSS"></div>
+                        <div class="slide"><img src="./images/bootstrap.webp" alt="Bootstrap"></div>
+                        <div class="slide"><img src="./images/js.webp" alt="JavaScript"></div>
+                        <div class="slide"><img src="./images/wordpress.webp" alt="WordPress"></div>
+                        <div class="slide"><img src="./images/elementor.webp" alt="Elementor"></div>
+                        <div class="slide"><img src="./images/woocommerce.webp" alt="WooCommerce"></div>
+                        <div class="slide"><img src="./images/figma.webp" alt="Figma"></div>
+                        <div class="slide"><img src="./images/photoshop.webp" alt="Photoshop"></div>
+                        <div class="slide"><img src="./images/illustrator.webp" alt="Illustrator"></div>
+                        <div class="slide"><img src="./images/github.webp" alt="GitHub"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skills Section End -->
+    <!-- Website Footer Start -->
+    <div id="footer" class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="footer-p1 text-center text-lg-start">© Copyright 2022 – 2024 | <a
+                            class="text-decoration-none" style="color: red;" href="index.html">Muhammad Sarib</a> |
+                        All
+                        Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="footer-p2 text-center text-lg-end">Made By MS (Muhammad Sarib)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Website Footer End -->
+    <!-- Add script.js File -->
+    <script src="./javascript/script.js"></script>
+    <!-- Add Bootstrap javascript File -->
+    <script src="./javascript/bootstrap.min.js"></script>
+</body>
+
+</html>
