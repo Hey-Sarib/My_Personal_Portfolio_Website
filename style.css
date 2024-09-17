@@ -208,7 +208,7 @@ marquee {
 
 /* Banner Start */
 #banner {
-    background-image: url('../images/banner-bg.webp');
+    background-image: url('banner-bg.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
