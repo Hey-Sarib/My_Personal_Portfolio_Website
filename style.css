@@ -1,0 +1,546 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Scrollbar Start */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, black);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, red);
+}
+
+/* Scrollbar End */
+
+/* Whatsapp Start */
+#whatsapp .whatsapp {
+    position: fixed;
+    transform: all .5s ease;
+    background-color: #25d366;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    border-right: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    bottom: 20px;
+    left: 20px;
+    border: 0;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+#whatsapp .whatsapp:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    border-radius: 50%;
+    --webkit-animation: pulse-border 1500ms ease-out infinite;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+#whatsapp .whatsapp:focus {
+    border: none;
+    overflow: none;
+}
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+}
+
+/* Whatsapp End */
+
+/* Website body Start */
+body {
+    overflow-x: hidden;
+}
+
+/* Website body End */
+
+/* Website li Start */
+li {
+    list-style: none;
+}
+
+/* Website li end */
+
+/* Website p tags starts */
+p {
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+/* Website p tags End */
+
+/* Button Hover Class Start */
+.button-hover:hover {
+    transform: scale(1.1);
+}
+
+/* Button Hover Class Start */
+
+/* Box Hover Class Start */
+.box-hover {
+    transition: transform .3s ease-in-out;
+}
+
+.box-hover:hover {
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+/* Box Hover Class End */
+
+/* Topbar Start */
+#topbar {
+    background-color: black;
+}
+
+.topbar-span {
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.topbar-icons {
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+marquee {
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+/* Topbar End */
+
+/* Navbar Start */
+
+#logo {
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 700;
+    color: black;
+}
+
+.sarib-span {
+    font-size: 22px;
+    color: red;
+}
+
+.offcanvas-header {
+    border-bottom: 2px solid black;
+}
+
+#offcanvasNavbarLabel {
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 700;
+    color: black;
+}
+
+
+
+.nav-item-header a {
+    color: black;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.nav-item-header a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.nav-item-header a.active {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.resume-btn {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.resume-btn:hover {
+    background-color: red;
+}
+
+/* Navbar End */
+
+/* Banner Start */
+#banner {
+    background-image: url('../images/banner-bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.1em;
+    font-family: cursive;
+}
+
+.banner-p1 {
+    font-size: 20px;
+}
+
+.banner-image {
+    width: 80%;
+}
+
+/* Banner End */
+
+/* About Section Start */
+.about-me-h2 {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.about-me-span {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.about-me-p {
+    color: black;
+}
+
+.about-me-btn {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.about-me-btn:hover {
+    background-color: red;
+}
+
+/* About Section End */
+
+/* Services Section Start */
+
+.card-icon-s {
+    color: black;
+    font-size: 60px;
+}
+
+.card-h3 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.card-text {
+    color: black;
+}
+
+.card-btn {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.card-btn:hover {
+    background-color: red;
+}
+
+/* Services Section End */
+
+/* Skills Section Start */
+#slider {
+    width: 100%;
+    overflow: hidden;
+    /* Hide overflowing images */
+}
+
+#slider .slide-track {
+    display: flex;
+    width: calc(12 * 120px);
+    /* Adjust width to the total number of slides and their size */
+    animation: scrollLeft 30s linear infinite;
+    /* Seamless infinite animation */
+}
+
+#slider .slide {
+    flex-shrink: 0;
+    width: 70px;
+    margin: 0px 50px;
+    /* Spacing between images */
+}
+
+#slider .slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Keyframes for infinite scrolling */
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+        /* Start position */
+    }
+
+    100% {
+        transform: translateX(calc(-12 * 120px));
+        /* Moves left by the width of all images */
+    }
+}
+
+/* Skills Section End */
+
+/* Website Footer Start */
+#footer {
+    background-color: black;
+}
+
+.footer-p1,
+.footer-p2 {
+    font-size: 15px;
+}
+
+/* Website Footer End */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* Banner Start */
+    .banner-h1 {
+        font-size: 60px;
+    }
+
+    .banner-p1 {
+        font-size: 18px;
+    }
+
+    /* Banner End */
+    /* About Section Start */
+    .about-me-h2 {
+        font-size: 60px;
+    }
+
+    .about-me-span {
+        font-size: 20px;
+    }
+
+    .about-me-p {
+        color: black;
+    }
+
+    /* About Section End */
+
+    /* Services Section Start */
+    .card-icon-s {
+        font-size: 50px;
+    }
+
+    .card-h3 {
+        font-size: 22px;
+    }
+
+    .card-text {
+        color: black;
+    }
+
+    /* Services Section End */
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    /* Banner Start */
+    .banner-h1 {
+        font-size: 60px;
+        line-height: 1em;
+    }
+
+    .banner-p1 {
+        font-size: 18px;
+    }
+
+    .banner-image {
+        width: 60%;
+    }
+
+    /* Banner End */
+
+    /* About Section Start */
+    .about-me-h2 {
+        font-size: 60px;
+    }
+
+    .about-me-span {
+        font-size: 20px;
+    }
+
+    .about-me-p {
+        color: black;
+    }
+
+    /* About Section End */
+
+    /* Services Section Start */
+    .card-icon-s {
+        font-size: 50px;
+    }
+
+    .card-h3 {
+        font-size: 22px;
+    }
+
+    .card-text {
+        color: black;
+    }
+
+    /* Services Section End */
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+
+    /* Banner Start */
+    .banner-h1 {
+        font-size: 50px;
+        line-height: 1em;
+    }
+
+    .banner-p1 {
+        font-size: 17px;
+    }
+
+    .banner-image {
+        width: 70%;
+    }
+
+    /* Banner End */
+    /* About Section Start */
+    .about-me-h2 {
+        font-size: 50px;
+    }
+
+    .about-me-span {
+        font-size: 18px;
+    }
+
+    .about-me-p {
+        color: black;
+    }
+
+    /* About Section End */
+
+    /* Services Section Start */
+    .card-icon-s {
+        font-size: 50px;
+    }
+
+    .card-h3 {
+        font-size: 22px;
+    }
+
+    .card-text {
+        color: black;
+    }
+
+    /* Services Section End */
+}
+
+@media (max-width: 600px) {
+
+    /* Website p tags Start */
+    p {
+        color: white;
+        font-size: 15px;
+    }
+
+    /* Website p tags End */
+    /* Banner Start */
+
+    .banner-h1 {
+        font-size: 50px;
+        line-height: 1em;
+    }
+
+    .banner-p1 {
+        font-size: 15px;
+    }
+
+    .banner-image {
+        width: 80%;
+    }
+
+    /* Banner End */
+
+    /* About Section Start */
+    .about-me-h2 {
+        font-size: 42px;
+    }
+
+    .about-me-span {
+        font-size: 18px;
+    }
+
+    .about-me-p {
+        color: black;
+    }
+
+    /* About Section End */
+
+    /* Services Section Start */
+    .card-icon-s {
+        font-size: 50px;
+    }
+
+    .card-h3 {
+        font-size: 22px;
+    }
+
+    .card-text {
+        color: black;
+    }
+
+    /* Services Section End */
+}
